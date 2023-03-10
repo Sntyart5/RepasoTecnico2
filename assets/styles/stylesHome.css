@@ -1,0 +1,43 @@
+.banner{
+    background-image: url(../img/banner2.png);
+    background-position: top center;
+    background-size: cover;
+    padding: 25% 10% 30% 5%;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+
+}
+
+.banner::after{
+    content: '';
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left: 0;
+    opacity: 0.4;
+
+}
+.home{
+    background-image: url(../img/home1.gif);
+
+    top:0;
+    left: 0;
+    background-position: center;
+    position: absolute;
+
+
+}
+.menuPrincipal{
+    background-color: transparent !important;
+    transition: 2s;
+
+}
+.menuSecundario{
+    background-color: black;
+    transition: 2s;
+
+}
